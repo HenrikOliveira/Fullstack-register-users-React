@@ -1,0 +1,97 @@
+/* Contêiner principal */
+.container { 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  background: linear-gradient(135deg, #3a0a5c, #5d1b8e); /* Gradiente de fundo */
+  min-height: 100vh; /* Garantir que o contêiner ocupe toda a altura da viewport */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do título */
+h1 {
+  color: #fff; /* Branco para contraste com o fundo escuro */
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave */
+  font-family: 'Roboto', sans-serif; /* Fonte sofisticada */
+  margin: 0;
+}
+
+/* Estilo do formulário */
+form {
+  padding: 30px;
+  background-color: #2a0d45; /* Roxo escuro */
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px; /* Limitar a largura máxima para centralização */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Estilo dos botões */
+form button {
+  border-radius: 8px;
+  background-color: #7f00ff; /* Roxo brilhante */
+  height: 50px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif; /* Fonte sofisticada */
+  font-size: 16px;
+  color: #fff; /* Texto branco */
+  transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito hover do botão */
+form button:hover {
+  background-color: #5e00b3; /* Roxo escuro */
+}
+
+/* Estilo dos inputs */
+form input {
+  border: 2px solid #7f00ff; /* Borda roxa brilhante */
+  border-radius: 8px;
+  height: 45px;
+  color: #fff; /* Texto branco */
+  background-color: #3a0a5c; /* Fundo escuro para os inputs */
+  font-size: 16px;
+  padding-left: 15px;
+  outline: none;
+  transition: border-color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito focus do input */
+form input:focus {
+  border-color: #5e00b3; /* Roxo escuro ao focar */
+}
+
+/* Estilo dos cartões */
+.card {
+  background-color: #2a0d45; /* Roxo escuro */
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px; /* Limitar a largura máxima para centralização */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  color: #fff; /* Texto branco */
+}
+
+/* Estilo dos parágrafos dentro dos cartões */
+.card p {
+  color: #ddd; /* Texto cinza claro */
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Estilo dos spans dentro dos cartões */
+.card span {
+  color: #bbb; /* Texto cinza médio */
+  font-weight: normal;
+}
